@@ -54,7 +54,7 @@ if __name__ == "__main__":
     plotBaselineSteps = False # Display the Baseline as Well as the Final Current After Baseline Subtraction
     
     # Apply bounds for peak detection
-    applyBoundsForPeak = True
+    applyBoundsForPeak = False
     peakWavelengthBounds = [240, 320]
     
     # Are we Looking for a Positive Peak?
